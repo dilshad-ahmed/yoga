@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+body{
+  background-color: #001542 !important;
 }
+.back-color{
+background-color: #001542 !important; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-items>ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner{
+  background-image: url(./images/yoga7.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner2{
+  background-image: url(./yoga1-01.jpeg);
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+}
+.banner-content{
+  height: 250px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+  text-shadow: 1px 1px 3px #505050;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-warning{
+  border-radius: 45px !important; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover{
+  height:220px;
+  width:170px;
+}
+.imghover:hover{
+  height: 220;
+  width: 120;
 }
