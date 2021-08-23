@@ -12,12 +12,14 @@ background-color: #001542 !important; }
 .banner{
   background-image: url(./images/yoga7.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 250px;
   width: 100%;
 }
 .banner2{
   background-image: url(./yoga1-01.jpeg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 250px;
   width: 100%;
 }
@@ -38,9 +40,5 @@ background-color: #001542 !important; }
 
 .card:hover{
   height:220px;
-  width:170px;
-}
-.imghover:hover{
-  height: 220;
-  width: 120;
+  width:220px;
 }
